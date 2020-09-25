@@ -1,0 +1,146 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "./page/welcome-1.html"
+  },
+  "logoInfo": {
+    "title": "就业跟踪",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "首页",
+      "icon": "fa fa-home",
+      "href": "./page/welcome-2.html",
+      "target": "_self"
+    },
+    {
+      "title": "院系管理",
+      "icon": "fa fa-institution",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "专业管理",
+          "href": "./page/class/findMajor.html",
+          "icon": "fa fa-mortar-board",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "班级管理",
+      "icon": "fa fa-tasks",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "添加班级",
+          "href": "page/class/addClass.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "班级信息维护",
+          "href": "./page/class/findClassBycno.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "学生管理",
+      "icon": "fa fa-user",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "添加学生",
+          "href": "./page/Student/addStudent.html",
+          "icon": "fa fa-plus-square-o",
+          "target": "_self"
+        },
+        {
+          "title": "学生信息维护",
+          "href": "./page/Student/findStudentBycno.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "合作企业管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "合作企业添加",
+          "href": "./page/Business/addBusiness.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "合作企业维护",
+          "href": "./page/Business/findBusinessBycno.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        },
+        {
+          "title": "专场招聘会维护",
+          "href": "./page/Business/Businessweihu.html",
+          "icon": "fa fa-search",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "就业管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "就业信息添加",
+          "href": "./page/job/addjob.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "协议书管理",
+          "href": "./page/job/contract.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        },
+        {
+          "title": "改派管理",
+          "href": "./page/job/gaipai.html",
+          "icon": "fa fa-search",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "管理员维护",
+          "href": "./page/user/guanliyuan.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "个人信息维护",
+          "href": "./page/user/adduser.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    }
+
+  ]
+}
