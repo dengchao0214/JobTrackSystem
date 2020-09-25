@@ -92,6 +92,50 @@
           "href": "./page/Business/Businessweihu.html",
           "icon": "fa fa-search",
           "target": "_self"
+        },
+         {
+      "title": "就业管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "就业信息添加",
+          "href": "./page/job/addjob.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "协议书管理",
+          "href": "./page/job/contract.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        },
+        {
+          "title": "改派管理",
+          "href": "./page/job/gaipai.html",
+          "icon": "fa fa-search",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "用户管理",
+      "icon": "fa fa-group",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "管理员维护",
+          "href": "./page/user/guanliyuan.html",
+          "icon": "fa fa-plus-square",
+          "target": "_self"
+        },
+        {
+          "title": "个人信息维护",
+          "href": "./page/user/adduser.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
         }
       ]
     }
